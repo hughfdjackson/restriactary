@@ -1,0 +1,16 @@
+{
+  "name": "restrictary",
+  "version": "0.0.1",
+  "main": "src/restrictary.js",
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hughfdjackson/restrictary.git"
+  },
+  "keywords": [],
+  "author": "hughfdjackson",
+  "license": "BSD"
+}
