@@ -30,8 +30,7 @@
     "harness": "mocha"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test",
-    "prepublish": "./node_modules/browserify/bin/cmd.js --standalone restrictary -e restrictary.js | ./node_modules/uglify-js/bin/uglifyjs > restrictary.min.js"
+    "test": "./node_modules/mocha/bin/mocha test"
   },
   "license": "MIT"
 }
